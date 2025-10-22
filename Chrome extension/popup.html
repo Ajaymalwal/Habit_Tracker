@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffefba">
+  <meta name="msapplication-navbutton-color" content="#ffefba">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffefba">
+  <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+  
+</head>
+<body>
+  <div id="app">
+    <h2>Habit Tracker</h2>
+    <div id="taskTable"></div>
+    <div class="buttons">
+      <button id="addTaskBtn" class="bottom-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="12" y1="5" x2="12" y2="19"/>
+  <line x1="5" y1="12" x2="19" y2="12"/>
+</svg>
+ Add Task</button>
+      <button id="editBtn" class="bottom-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <rect x="6" y="10" width="12" height="8" rx="2"/>
+  <path d="M8 10V8a4 4 0 118 0v2"/>
+</svg>
+ Edit</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

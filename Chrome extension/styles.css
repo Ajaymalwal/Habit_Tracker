@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+}
+/* Updated task list container to fill full viewport width and allow horizontal scrolling */
+#taskTable {
+  overflow-x: auto;
+  width: 100vw;
+  white-space: nowrap;
+  margin: 20px auto;
+}
+
+/* Updated table styling to fit container and ensure a minimum width for date columns */
+table {
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  min-width: 600px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+input[type=checkbox] {
+  transform: scale(1.2);
+}
+.buttons {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #45a049;
+}
+.bottom-btn{
+  display: flex;
+  align-items: center;
+
+}
+h2 {
+  text-align: center;
+  color: #333;
+}

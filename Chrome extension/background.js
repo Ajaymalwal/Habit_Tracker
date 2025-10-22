@@ -1,0 +1,1 @@
+// Empty for now. Needed for manifest v3 background service worker.
